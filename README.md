@@ -10,15 +10,6 @@
 
 ---
 
-## ⚔️ ABOUT ME
-
-```diff
-+ Chandigarh University Student
-+ Grinding DSA Every Day
-+ Java • C++ • Python
-+ Future Software Engineer
-+ Consistency > Motivation
-```
 
 ---
 
