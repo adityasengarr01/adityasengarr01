@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi 👋, I'm Aditya Kumar
 
-<!--
-**adityasengarr01/adityasengarr01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
+- 🎓 Chandigarh University Student
+- 💻 Learning Java, DSA, and Development
+- 🌱 Improving coding skills every day
 
-Here are some ideas to get you started:
+## 🔥 GitHub Streak
+![GitHub Streak](https://streak-stats.demolab.com?user=adityasengarr01)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=adityasengarr01&show_icons=true)
+
+![snake gif](https://github.com/adityasengarr01/adityasengarr01/blob/output/github-snake-dark.svg)
