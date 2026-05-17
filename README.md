@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityasengarr01&theme=black-ice&hide_border=true&stroke=0000&ring=FFD700&fire=FFD700&currStreakLabel=FFD700">
+  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFFFFF&dates=FFFFFF&sideNums=58A6FF&currStreakNum=FFFFFF">
 </p>
 
 <p align="center">
