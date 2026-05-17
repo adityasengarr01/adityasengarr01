@@ -1,48 +1,67 @@
-<h1 align="center">⚡ Aditya Kumar ⚡</h1>
+<h1 align="center">⚡ ADITYA KUMAR ⚡</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00FFAA&center=true&vCenter=true&width=700&lines=Java+Developer;DSA+Learner;C%2B%2B+Programmer;Future+Software+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=800&lines=JAVA+DEVELOPER;DSA+GRINDER;C%2B%2B+PROGRAMMER;BUILDING+MY+EMPIRE;CODE+BLOOD+AND+LOGIC" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&text=CODE%20LIKE%20A%20BEAST&fontAlign=50&fontAlignY=40&color=0:000000,50:00FF00,100:000000&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 ---
 
-# 📊 GitHub Stats
+## ⚔️ ABOUT ME
+
+```diff
++ Chandigarh University Student
++ Grinding DSA Every Day
++ Java • C++ • Python
++ Future Software Engineer
++ Consistency > Motivation
+```
+
+---
+
+## 🔥 GITHUB STREAK
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=FF00FF&fire=FFA500&currStreakLabel=FFD700&sideNums=39FF14&currStreakNum=FF1493&dates=FFFFFF&sideLabels=FFFFFF" />
+  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=00FF00&fire=FF0000&currStreakLabel=00FF00&sideNums=00FFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF"/>
 </p>
 
 ---
 
-# 🐍 Contribution Snake
+## 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg"/>
 </p>
 
 ---
 
-# 💻 Tech Stack
+## 💻 TECH ARSENAL
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,cpp,c,python,git,github,vscode,mysql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,cpp,c,python,git,github,vscode,mysql&theme=dark"/>
 </p>
 
 ---
 
-# 🤝 Connect With Me
+## 🌐 CONNECT WITH ME
 
 <p align="center">
   <a href="https://github.com/adityasengarr01">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF00"/>
   </a>
 
-  <a href="https://www.linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF"/>
   </a>
 
-  
+  <a href="mailto:yourmail@gmail.com">
+    <img src="https://img.shields.io/badge/GMAIL-000000?style=for-the-badge&logo=gmail&logoColor=FF0000"/>
+  </a>
+</p>
 
 ---
 
-<h3 align="center">⚡ Code • Learn • Build • Repeat ⚡</h3>
+<h2 align="center">⚡ EAT • SLEEP • CODE • REPEAT ⚡</h2>
