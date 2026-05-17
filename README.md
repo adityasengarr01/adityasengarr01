@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=tokyonight&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&dates=FFFFFF">
+  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=tokyonight">
 </p>
 
 <p align="center">
