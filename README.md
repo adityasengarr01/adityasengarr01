@@ -1,7 +1,7 @@
 <h1 align="center">⚡ ADITYA KUMAR ⚡</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=800&lines=JAVA+DEVELOPER;DSA+GRINDER;C%2B%2B+PROGRAMMER;BUILDING+MY+EMPIRE" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=800&lines=TURNING LOGIC INTO CODE;LEARNING DSA;C%2B%2B+PROGRAMMER;BUILDING PROJECTS" />
 </p>
 
 
