@@ -1,9 +1,8 @@
 <h1 align="center">⚡ ADITYA KUMAR ⚡</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=800&lines=TURNING LOGIC INTO CODE;LEARNING DSA;C%2B%2B+PROGRAMMER;BUILDING PROJECTS" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=900&lines=TURNING+LOGIC+INTO+CODE;LEARNING+DSA;C%2B%2B+PROGRAMMER;BUILDING+PROJECTS" />
 </p>
-
 
 ---
 
@@ -41,8 +40,8 @@
   <a href="https://linkedin.com">
     <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF"/>
   </a>
-
+</p>
 
 ---
 
-<h2 align="center">⚡ EAT • SLEEP • CODE • REPEAT ⚡</h2>
+<h2 align="center">⚡ CODE • LEARN • GROW ⚡</h2>
