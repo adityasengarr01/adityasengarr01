@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&text=CODE%20LIKE%20A%20BEAST&fontAlign=50&fontAlignY=40&color=0:000000,50:00FF00,100:000000&fontColor=ffffff&animation=fadeIn"/>
+  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=00FF00&fire=FF0000&currStreakLabel=00FF00&sideNums=00FFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF"/>
 </p>
 
 ---
