@@ -10,9 +10,6 @@
 
 ---
 
-
----
-
 ## 🔥 GITHUB STREAK
 
 <p align="center">
