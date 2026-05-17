@@ -9,11 +9,7 @@
 # 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=FF00FF&fire=FFA500&currStreakLabel=FF1493&sideNums=39FF14&currStreakNum=FF1493&dates=FFFFFF&sideLabels=FFFFFF" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasengarr01&bg_color=000000&color=39FF14&line=00FFFF&point=FF00FF&area=true&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=FF00FF&fire=FFA500&currStreakLabel=FFD700&sideNums=39FF14&currStreakNum=FF1493&dates=FFFFFF&sideLabels=FFFFFF" />
 </p>
 
 ---
@@ -21,7 +17,7 @@
 # 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg">
 </p>
 
 ---
@@ -45,10 +41,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-  <a href="mailto:yourmail@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+  
 
 ---
 
