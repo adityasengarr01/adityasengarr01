@@ -4,15 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=39FF14&center=true&vCenter=true&width=700&lines=Java+Developer;DSA+Learner;Open+Source+Beginner;Always+Learning+New+Things">
 </p>
 
----
-
-<h2 align="center">🏆 GitHub Trophy</h2>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adityasengarr01&theme=matrix&no-frame=true&row=1&column=6">
-</p>
-
----
 
 <h2 align="center">📊 GitHub Stats</h2>
 
