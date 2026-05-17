@@ -17,8 +17,9 @@
 ## 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-contribution-grid-snake-dark.svg"/>
 </p>
+
 ---
 
 ## 💻 TECH ARSENAL
