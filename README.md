@@ -4,7 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00FF00&center=true&vCenter=true&width=900&lines=TURNING+LOGIC+INTO+CODE;LEARNING+DSA;C%2B%2B+PROGRAMMER;BUILDING+PROJECTS" />
 </p>
 
----
 
 ## 🔥 GITHUB STREAK
 
@@ -12,7 +11,7 @@
   <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=00FF00&fire=FF0000&currStreakLabel=00FF00&sideNums=00FFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF"/>
 </p>
 
----
+
 
 ## 🐍 CONTRIBUTION SNAKE
 
@@ -28,7 +27,6 @@
   <img src="https://skillicons.dev/icons?i=java,cpp,c,python,git,github,vscode,mysql&theme=dark"/>
 </p>
 
----
 
 ## 🌐 CONNECT WITH ME
 
@@ -42,6 +40,6 @@
   </a>
 </p>
 
----
+
 
 <h2 align="center">⚡ CODE • LEARN • GROW ⚡</h2>
