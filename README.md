@@ -20,7 +20,7 @@
   <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg"/>
 </p>
 
----
+
 
 ## 💻 TECH ARSENAL
 
