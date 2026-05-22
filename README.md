@@ -5,11 +5,11 @@
 </p>
 
 
-## 🔥 GITHUB STREAK
+## 🏆 GitHub Achievements
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=adityasengarr01&theme=highcontrast&hide_border=true&background=000000&ring=00FF00&fire=FF0000&currStreakLabel=00FF00&sideNums=00FFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF"/>
-</p>
+![Pull Shark](https://img.shields.io/badge/Pull%20Shark-Achievement-blue?style=for-the-badge&logo=github)
+
+Working towards GitHub achievements by contributing consistently and merging pull requests.
 
 ## 🏆 GitHub Achievements
 
