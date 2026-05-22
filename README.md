@@ -5,11 +5,7 @@
 </p>
 
 
-## 🏆 GitHub Achievements
 
-![Pull Shark](https://img.shields.io/badge/Pull%20Shark-Achievement-blue?style=for-the-badge&logo=github)
-
-Working towards GitHub achievements by contributing consistently and merging pull requests.
 
 ## 🏆 GitHub Achievements
 
