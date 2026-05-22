@@ -7,11 +7,6 @@
 
 
 
-## 🏆 GitHub Achievements
-
-- 🦈 Pull Shark (In Progress)
-- 🔥 Daily Contribution Streak
-- 🚀 Active Open Source Learning
 
 ## 🐍 CONTRIBUTION SNAKE
 
