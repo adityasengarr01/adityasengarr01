@@ -6,20 +6,20 @@
 
 
 
-<h1 align="center">🍄 Mario Mode Activated 🍄</h1>
-
-<p align="center">
-  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/mario.gif" width="450">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight">
-</p>
-
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph.svg"
+  />
+  <img
+    alt="pacman contribution graph"
+    src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph.svg"
+  />
+</picture>
 
 
 ## 💻 TECH ARSENAL
