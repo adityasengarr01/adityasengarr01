@@ -8,7 +8,7 @@
 
 ## 🌌 Contribution Graph
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=8a2be2&line=00ffff&point=ffffff&area=true&hide_border=true)](https://github.com/YOUR_USERNAME)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true)](https://github.com/YOUR_USERNAME)
 
 ---
 
@@ -19,13 +19,6 @@
 
   <img width="49%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
 </p>
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=AI+Developer;DSA+Enthusiast;Open+Source+Explorer" />
-</p>
-
 
 ## 💻 TECH ARSENAL
 
