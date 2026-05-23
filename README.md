@@ -6,15 +6,11 @@
 
 
 
-<h2 align="center">🐍 Contribution Snake</h2>
+## 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=500&lines=Eating+my+contributions...;Coding+everyday+⚡;Building+projects+🚀" />
-</p>
+  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg" alt="snake animation"/>
+</p> make this code better 
 
 ## 💻 TECH ARSENAL
 
