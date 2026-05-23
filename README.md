@@ -7,11 +7,13 @@
 
 
 
-
-## 🐍 CONTRIBUTION SNAKE
+## CONTRIBUTION 
+<p align="center">
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" />
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-snake-dark.svg"/>
+  <img src="https://media.tenor.com/DimzPZMypFcAAAAd/pokemon.gif" width="500">
 </p>
 
 
