@@ -6,20 +6,27 @@
 
 
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph.svg"
-  />
-  <img
-    alt="pacman contribution graph"
-    src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/master/pacman-contribution-graph.svg"
-  />
-</picture>
+## 👾 Contribution Graph
+
+[![Aditya's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=00ff99&line=00ff99&point=ffffff&area=true&hide_border=true)](https://github.com/YOUR_USERNAME)
+
+---
+
+## 🕹️ Retro Arcade Panel
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true" />
+  
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=18&pause=1000&color=FF00FF&center=true&vCenter=true&width=900&lines=GAME+START...;AI+Developer;DSA+Player;Open+Source+Explorer" />
+</p>
 
 
 ## 💻 TECH ARSENAL
