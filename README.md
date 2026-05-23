@@ -6,18 +6,10 @@
 
 
 
-## 🌌 Contribution Graph
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true)](https://github.com/YOUR_USERNAME)
-
----
-
-## 🚀 GitHub Stats
+## 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-
-  <img width="49%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
+  <img src="https://raw.githubusercontent.com/adityasengarr01/adityasengarr01/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 </p>
 
 ## 💻 TECH ARSENAL
