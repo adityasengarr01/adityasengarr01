@@ -6,14 +6,18 @@
 
 
 
+<h1 align="center">🍄 Mario Mode Activated 🍄</h1>
 
-## CONTRIBUTION 
 <p align="center">
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" />
+  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/mario.gif" width="450">
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/DimzPZMypFcAAAAd/pokemon.gif" width="500">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight">
 </p>
 
 
