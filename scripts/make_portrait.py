@@ -15,7 +15,7 @@ from rembg import remove
 
 RAMP = " .`:-=+*cs#%@"
 
-COLS = 90
+COLS = 100
 
 CLAHE_CLIP = 3.0
 GAMMA = 1.0
