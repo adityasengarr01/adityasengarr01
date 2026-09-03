@@ -1,0 +1,49 @@
+name: generate portrait
+
+on:
+  push:
+    paths:
+      - "pro.jpg"
+      - "scripts/make_portrait.py"
+      - "scripts/fonts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  portrait:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow numpy opencv-python-headless rembg onnxruntime
+
+      - name: Generate ASCII portrait
+        run: |
+          python scripts/make_portrait.py pro.jpg ascii.svg --cols 110
+
+      - name: Commit portrait
+        run: |
+          if [ -z "$(git status --porcelain -- ascii.svg)" ]; then
+            echo "no change"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add ascii.svg
+          git commit -m "portrait: refresh ASCII portrait"
+          git push
