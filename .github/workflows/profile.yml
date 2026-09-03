@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate ASCII portrait
         run: |
-          python scripts/make_portrait.py portrait.jpg.jpeg ascii.svg
+          python scripts/make_portrait.py pro.jpg ascii.svg
 
       - name: Commit generated graphics
         run: |
