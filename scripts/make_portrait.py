@@ -1,101 +1,117 @@
 #!/usr/bin/env python3
 
-from PIL import Image, ImageOps, ImageEnhance
+from PIL import Image, ImageEnhance, ImageFilter
 import argparse
 import html
 
-# Dark -> light
+# Empty → dark/dense
 RAMP = " .:-=+*#%@"
 
-COLS = 100
+COLS = 90
 ROW_RATIO = 0.48
 
-FONT_SIZE = 12
-LINE_H = 14
-CHAR_W = 7.2
+FONT_SIZE = 13
+LINE_HEIGHT = 15
+CHAR_WIDTH = 7.8
 
-FG = "#c9d1d9"
+DARK = "#c9d1d9"
 
 
-def prepare_image(path, crop=None):
-    img = Image.open(path).convert("RGB")
+def prepare(path, crop=None):
+    image = Image.open(path).convert("RGB")
 
     if crop:
-        img = img.crop(crop)
+        image = image.crop(crop)
 
     # Grayscale
-    img = ImageOps.grayscale(img)
+    image = image.convert("L")
 
-    # Improve contrast
-    img = ImageEnhance.Contrast(img).enhance(1.35)
+    # Improve facial contrast
+    image = ImageEnhance.Contrast(image).enhance(1.6)
 
-    # Slightly sharpen
-    img = ImageEnhance.Sharpness(img).enhance(1.25)
+    # Slight sharpening
+    image = image.filter(ImageFilter.UnsharpMask(
+        radius=1.2,
+        percent=130,
+        threshold=3
+    ))
 
-    return img
+    return image
 
 
-def image_to_ascii(img, cols=COLS):
-    width, height = img.size
+def ascii_lines(image, cols):
+    width, height = image.size
 
     rows = max(
         1,
         int(cols * (height / width) * ROW_RATIO)
     )
 
-    img = img.resize((cols, rows), Image.Resampling.LANCZOS)
+    image = image.resize(
+        (cols, rows),
+        Image.Resampling.LANCZOS
+    )
 
-    pixels = list(img.getdata())
+    pixels = list(image.getdata())
 
-    lines = []
+    result = []
 
     for y in range(rows):
-        line = ""
+        line = []
 
         for x in range(cols):
             brightness = pixels[y * cols + x]
 
-            # Dark pixels -> dense characters
+            # Darker pixels → denser characters
+            darkness = 1 - brightness / 255
+
             index = int(
-                (1 - brightness / 255) * (len(RAMP) - 1)
+                darkness * (len(RAMP) - 1)
             )
 
-            line += RAMP[index]
+            line.append(RAMP[index])
 
-        lines.append(line.rstrip())
+        result.append("".join(line).rstrip())
 
-    # Remove completely empty rows
-    while lines and not lines[0].strip():
-        lines.pop(0)
+    # Remove empty rows around portrait
+    while result and not result[0].strip():
+        result.pop(0)
 
-    while lines and not lines[-1].strip():
-        lines.pop()
+    while result and not result[-1].strip():
+        result.pop()
 
-    return lines
+    return result
 
 
-def build_svg(lines, cols=COLS):
-    padding = 18
+def create_svg(lines, cols):
+    padding = 14
 
-    width = int(cols * CHAR_W + padding * 2)
-    height = int(len(lines) * LINE_H + padding * 2)
+    width = int(
+        cols * CHAR_WIDTH + padding * 2
+    )
+
+    height = int(
+        len(lines) * LINE_HEIGHT + padding * 2
+    )
 
     svg = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'width="{width}" height="{height}" '
+        f'width="{width}" '
+        f'height="{height}" '
         f'viewBox="0 0 {width} {height}">',
 
-        '<rect width="100%" height="100%" fill="#000000"/>',
+        '<rect width="100%" height="100%" '
+        'fill="#000000"/>',
 
-        f'<g fill="{FG}" '
-        f'font-family="JetBrains Mono, '
-        f'SFMono-Regular, Menlo, Consolas, monospace" '
+        f'<g fill="{DARK}" '
+        'font-family="ui-monospace, '
+        'SFMono-Regular, Menlo, Consolas, monospace" '
         f'font-size="{FONT_SIZE}px">'
     ]
 
     for row, line in enumerate(lines):
 
-        y = padding + row * LINE_H + FONT_SIZE
+        y = padding + row * LINE_HEIGHT + FONT_SIZE
 
         safe = html.escape(line)
 
@@ -111,12 +127,10 @@ def build_svg(lines, cols=COLS):
 
 
 def main():
-
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "photo",
-        help="Input photo"
+        "photo"
     )
 
     parser.add_argument(
@@ -142,28 +156,28 @@ def main():
 
     if args.crop:
         values = [
-            int(value)
-            for value in args.crop.split(",")
+            int(x)
+            for x in args.crop.split(",")
         ]
 
         if len(values) != 4:
             raise SystemExit(
-                "--crop requires: left,top,right,bottom"
+                "--crop needs: left,top,right,bottom"
             )
 
         crop = tuple(values)
 
-    image = prepare_image(
+    image = prepare(
         args.photo,
         crop
     )
 
-    lines = image_to_ascii(
+    lines = ascii_lines(
         image,
         args.cols
     )
 
-    svg = build_svg(
+    svg = create_svg(
         lines,
         args.cols
     )
@@ -176,8 +190,8 @@ def main():
         file.write(svg)
 
     print(
-        f"Generated {args.output}: "
-        f"{len(lines)} rows × {args.cols} columns"
+        f"Generated {args.output} "
+        f"({args.cols} columns × {len(lines)} rows)"
     )
 
 
